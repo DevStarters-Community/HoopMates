@@ -1,7 +1,10 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/home/home",
+    "pages/index/index",
+    "pages/my-profile/my-profile"
   ],
+  "entryPagePath": "pages/index/index",
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
@@ -9,5 +12,17 @@
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my-profile/my-profile",
+        "text": "我的"
+      }
+    ]
   }
 }

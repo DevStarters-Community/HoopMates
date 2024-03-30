@@ -1,0 +1,20 @@
+<!--pages/home/home.wxml-->
+<swiper 
+autoplay="true"
+interval="5000"
+circular="true"
+indicator-dots="true"
+indicator-color="#999"
+indicator-active-color="#333"
+>
+  <swiper-item>
+    <image src="https://images.wallpapersden.com/image/download/nba-finals-2022-hd_bWllZ2WUmZqaraWkpJRmZWdprWpsaw.jpg" mode="aspectFit"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../assets/images/home-carousel.webp" mode="aspectFit"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://images.wallpapersden.com/image/download/nba-finals-2022-hd_bWllZ2WUmZqaraWkpJRmZWdprWpsaw.jpg" mode="aspectFit"/>
+  </swiper-item>
+</swiper>
+<text>pages/home/home.wxml</text>

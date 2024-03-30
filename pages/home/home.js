@@ -1,4 +1,4 @@
-// pages/index/index.js
+// pages/home/home.js
 Page({
 
   /**
@@ -26,15 +26,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-    console.log('onShow triggered')
-    setTimeout(() => {
-      console.log('Attempting to switch tab')
-      wx.switchTab({
-        url: '/pages/home/home',
-        success: () => console.log('Switched tab successful'),
-        fail: (error) => console.log('Switch tab failed', error)
-      });
-    }, 2000);
+
   },
 
   /**
@@ -70,18 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-
-  // 因为小程序不支持 mailto 链接，所以采用点击文本触发一个复制的函数
-  copyEmail: (e) => {
-    wx.setClipboardData({
-      data: e.currentTarget.dataset.email,
-      success: () => {
-        wx.showToast({
-          title: '邮箱已复制到剪贴板',
-          icon: 'none'
-        })
-      }
-    })
   }
 })

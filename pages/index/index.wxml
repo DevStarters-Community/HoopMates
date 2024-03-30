@@ -1,2 +1,7 @@
 <!--pages/index/index.wxml-->
-<text>Hello HoopMates!</text>
+<text class="welcome-message">Hello HoopMates!</text>
+
+<view class="email-list">
+  <text class="email-item" bind:tap="copyEmail" data-email="kevin@DevStarters.org">kevin@DevStarters.org</text>
+  <text class="email-item" bind:tap="copyEmail" data-email="yunwen@DevStarters.org">yunwen@DevStarters.org</text>
+</view>
