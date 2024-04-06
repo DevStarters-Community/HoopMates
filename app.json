@@ -29,5 +29,6 @@
       }
     ]
   },
-  "darkmode": false
+  "darkmode": false,
+  "enablePullDownRefresh": true
 }

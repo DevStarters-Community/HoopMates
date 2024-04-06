@@ -46,10 +46,63 @@ indicator-active-color="#333"
   <image src="../../assets/images/icons/lanqiu.svg" mode="widthFix" class="icon"/>CBDL</view>
 </view>
 
+<!-- 推荐直播 -->
 <view class="section-header">
 <view class="title">推荐直播</view>
 <view class="view-all">查看全部 ></view>
 </view>
+
+<view class="live-container">
+  <view class="live-item">
+    <image src="../../assets/images/carouselPlaceholder.png" mode="widthFix" class="live-cover"/>
+    <view class="live-info">
+      <view class="live-title">2022年NBA总决赛</view>
+      <view class="live-time">2022-06-01 09:00</view>
+    </view>
+  </view>
+  <view class="live-item">
+    <image src="../../assets/images/carouselPlaceholder.png" mode="widthFix" class="live-cover"/>
+    <view class="live-info">
+      <view class="live-title">2022年欧洲杯决赛</view>
+      <view class="live-time">2022-07-01 09:00</view>
+    </view>
+  </view>
+</view>
+
+<view class="live-container">
+  <view class="live-item">
+    <image src="../../assets/images/carouselPlaceholder.png" mode="widthFix" class="live-cover"/>
+    <view class="live-info">
+      <view class="live-title">2022年NBA总决赛</view>
+      <view class="live-time">2022-06-01 09:00</view>
+    </view>
+  </view>
+  <view class="live-item">
+    <image src="../../assets/images/carouselPlaceholder.png" mode="widthFix" class="live-cover"/>
+    <view class="live-info">
+      <view class="live-title">2022年欧洲杯决赛</view>
+      <view class="live-time">2022-07-01 09:00</view>
+    </view>
+  </view>
+</view>
+
+<view class="live-container">
+  <view class="live-item">
+    <image src="../../assets/images/carouselPlaceholder.png" mode="widthFix" class="live-cover"/>
+    <view class="live-info">
+      <view class="live-title">2022年NBA总决赛</view>
+      <view class="live-time">2022-06-01 09:00</view>
+    </view>
+  </view>
+  <view class="live-item">
+    <image src="../../assets/images/carouselPlaceholder.png" mode="widthFix" class="live-cover"/>
+    <view class="live-info">
+      <view class="live-title">2022年欧洲杯决赛</view>
+      <view class="live-time">2022-07-01 09:00</view>
+    </view>
+  </view>
+</view>
+
 
 
 

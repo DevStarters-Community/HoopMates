@@ -53,3 +53,14 @@ image {
   color: #999;
 }
 
+.live-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.live-item {
+  margin: 10px;
+  max-width: 45%;
+}
+
