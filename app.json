@@ -17,12 +17,17 @@
     "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "./assets/images/icons/home.png",
+        "selectedIconPath": "./assets/images/icons/home-fill.png"
       },
       {
         "pagePath": "pages/my-profile/my-profile",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "./assets/images/icons/user.png",
+        "selectedIconPath": "./assets/images/icons/user.png"
       }
     ]
-  }
+  },
+  "darkmode": false
 }

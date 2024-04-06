@@ -3,6 +3,12 @@ image {
   width: 100%;
 }
 
+.custom-swiper {
+  margin: 0 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 .kingkong-container {
   display: flex;
   flex-wrap: wrap;
@@ -11,6 +17,10 @@ image {
 }
 
 .kingkong-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 18%;
   margin-bottom: 10px;
   margin-right: 1px;
@@ -18,6 +28,12 @@ image {
   padding: 20px 0;
   background-color: #f5f5f5;
   border-radius: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
 }
 
 .section-header {
@@ -36,3 +52,4 @@ image {
   font-size: 14px;
   color: #999;
 }
+
