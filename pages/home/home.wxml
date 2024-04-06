@@ -37,7 +37,7 @@ indicator-active-color="#333"
 <view class="kingkong-item">
   <image src="../../assets/images/icons/lanqiu.svg" mode="widthFix" class="icon"/>NYBO</view>
 <view class="kingkong-item">
-  <image src="../../assets/images/icons/lanqiu.svg" mode="widthFix" class="icon"/>CAAU</view>
+  <image src="../../assets/images/icons/lanqiu.svg" mode="widthFix" class="icon"/>CANU</view>
 <view class="kingkong-item">
   <image src="../../assets/images/icons/lanqiu.svg" mode="widthFix" class="icon"/>CJBL</view>
 <view class="kingkong-item">
@@ -53,4 +53,4 @@ indicator-active-color="#333"
 
 
 
-<text>pages/home/home.wxml</text>
+<text>pages/home/text.wxml</text>
