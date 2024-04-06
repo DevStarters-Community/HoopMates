@@ -1,4 +1,5 @@
 <!--pages/home/home.wxml-->
+<!-- 轮播图 -->
 <swiper 
 autoplay="true"
 interval="5000"
@@ -8,13 +9,35 @@ indicator-color="#999"
 indicator-active-color="#333"
 >
   <swiper-item>
-    <image src="https://images.wallpapersden.com/image/download/nba-finals-2022-hd_bWllZ2WUmZqaraWkpJRmZWdprWpsaw.jpg" mode="aspectFit"/>
+    <image src="https://images.wallpapersden.com/image/download/nba-finals-2022-hd_bWllZ2WUmZqaraWkpJRmZWdprWpsaw.jpg" mode="widthFix"/>
   </swiper-item>
   <swiper-item>
-    <image src="../../assets/images/home-carousel.webp" mode="aspectFit"/>
+    <image src="../../assets/images/home-carousel.webp" mode="widthFix"/>
   </swiper-item>
   <swiper-item>
-    <image src="https://images.wallpapersden.com/image/download/nba-finals-2022-hd_bWllZ2WUmZqaraWkpJRmZWdprWpsaw.jpg" mode="aspectFit"/>
+    <image src="https://images.wallpapersden.com/image/download/nba-finals-2022-hd_bWllZ2WUmZqaraWkpJRmZWdprWpsaw.jpg" mode="widthFix"/>
   </swiper-item>
 </swiper>
+
+<!-- 金刚区 -->
+<view class="kingkong-container">
+<view class="kingkong-item">保险中心</view>
+<view class="kingkong-item">商城</view>
+<view class="kingkong-item">赛季</view>
+<view class="kingkong-item">姚基金</view>
+<view class="kingkong-item">U系列</view>
+<view class="kingkong-item">NYBO</view>
+<view class="kingkong-item">CAAU</view>
+<view class="kingkong-item">CJBL</view>
+<view class="kingkong-item">CPBL</view>
+<view class="kingkong-item">CBDL</view>
+</view>
+
+<view class="section-header">
+<view class="title">推荐直播</view>
+<view class="view-all">查看全部 ></view>
+</view>
+
+
+
 <text>pages/home/home.wxml</text>
