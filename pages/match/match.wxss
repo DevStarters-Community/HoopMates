@@ -1,0 +1,32 @@
+/* pages/match/match.wxss */
+.match-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.match-card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.match-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.match-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.match-name, .match-time, .match-location {
+  margin-bottom: 5px;
+}

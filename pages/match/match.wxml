@@ -1,0 +1,11 @@
+<!--pages/match/match.wxml-->
+<view class="match-list">
+  <view wx:for="{{ matches }}" wx:key="id" class="match-card" bind:tap="viewMatchDetail" data-id="{{ item.id }}">
+    <!-- <image src="" mode=""/> -->
+    <view class="match-info">
+      <text class="match-name">{{ item.name }}</text>
+      <text class="match-time">{{ item.time }}</text>
+      <text class="match-location">{{ item.location }}</text>
+    </view>
+  </view>
+</view>
