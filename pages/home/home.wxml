@@ -24,7 +24,7 @@ indicator-active-color="#333"
 <view class="kingkong-container">
 <view class="kingkong-item">
 <image src="../../assets/images/icons/lanqiu.svg" mode="widthFix" class="icon"/>
-保险中心
+{{message}}
 </view>
 <view class="kingkong-item">
   <image src="../../assets/images/icons/lanqiu.svg" mode="widthFix" class="icon"/>商城</view>
@@ -106,4 +106,3 @@ indicator-active-color="#333"
 
 
 
-<text>pages/home/text.wxml</text>

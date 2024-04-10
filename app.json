@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/home",
     "pages/index/index",
-    "pages/my-profile/my-profile"
+    "pages/my-profile/my-profile",
+    "pages/match/match"
   ],
   "entryPagePath": "pages/index/index",
   "window": {
@@ -20,6 +21,10 @@
         "text": "首页",
         "iconPath": "./assets/images/icons/home.png",
         "selectedIconPath": "./assets/images/icons/home-fill.png"
+      },
+      {
+        "pagePath": "pages/match/match",
+        "text": "匹配球局"
       },
       {
         "pagePath": "pages/my-profile/my-profile",
