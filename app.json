@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/index/index",
     "pages/my-profile/my-profile",
-    "pages/match/match"
+    "pages/match/match",
+    "pages/match-detail/match-detail"
   ],
   "entryPagePath": "pages/index/index",
   "window": {
@@ -34,6 +35,5 @@
       }
     ]
   },
-  "darkmode": false,
-  "enablePullDownRefresh": true
+  "darkmode": false
 }

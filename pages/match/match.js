@@ -29,8 +29,9 @@ Page({
 
   viewMatchDetail: (e) => {
     const matchId = e.currentTarget.dataset.id;
+    console.log('/pages/matchDetail/match-detail?id=' + matchId);
     wx.navigateTo({
-      url: '/pages/matchDetail/matchDetail?id=' + matchId,
+      url: '/pages/match-detail/match-detail?id=' + matchId,
     })
   },
 
