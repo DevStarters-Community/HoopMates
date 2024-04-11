@@ -5,16 +5,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    match: {} //用于存储当前比赛的详情
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    const matchId = options.id;
+    const matchDetail = this.getMatchDetailById(matchId);
+    this.setData({
+      match: matchDetail
+    });
   },
-
+  getMatchDetailById(id) {
+    const matchDetails = {
+      '1': { name: "篮球友谊赛", time: "2024年4月15日 18:00", location: "市体育中心" },
+      '2': { name: "老兵队 VS 深大传播", time: "2024年4月16日 18:00", location: "深圳大学小球馆" },
+      '3': { name: "安托山土匪 VS 洛杉矶湖人", time: "2024年4月17日 18:00", location: "高时体育中心" }
+    };
+    return matchDetails[id] || {};
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

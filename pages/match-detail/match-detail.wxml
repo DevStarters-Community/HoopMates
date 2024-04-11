@@ -1,2 +1,8 @@
 <!--pages/match-detail/match-detail.wxml-->
 <text>这是详情页面（测试）</text>
+<view class="container">
+  <text class="match-name">比赛名称：{{ match.name }}</text>
+  <text class="match-name">比赛时间：{{ match.time }}</text>
+  <text class="match-name">比赛地点：{{ match.location }}</text>
+
+</view>
