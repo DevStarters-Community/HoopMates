@@ -1,2 +1,17 @@
 <!--pages/my-profile/my-profile.wxml-->
-<text>pages/my-profile/my-profile.wxml</text>
+<view class="profile-section">
+  <image class="avatar" src="{{ userInfo.avatarUrl }}" mode="aspectFill"/>
+  <text class="nickname">{{ userInfo.nickName }}</text>
+  <text class="level">级别：{{ userInfo.level }}</text>
+  <button class="get-profile-btn" bind:tap="getUserProfile">更新个人信息</button>
+</view>
+
+<view class="activities-section">
+  <view class="section-title">我的活动</view>
+  <block wx:for="{{ activities }}" wx:key="unique">
+    <view class="activity">
+      <text>{{ item.date }} - {{ item.time }}</text>
+      <text>{{ item.location }}</text>
+    </view>
+  </block>
+</view>

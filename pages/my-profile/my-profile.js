@@ -5,7 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    userInfo: {
+      avatarUrl: "",
+      nickName: "用户昵称",
+      level: "初级"
+    },
+    activities: [{
+      date: "2024-04-19", time: "18:00", location: "深圳大学小球馆"
+    }]
   },
 
   /**
@@ -13,6 +20,23 @@ Page({
    */
   onLoad(options) {
 
+  },
+
+  getUserProfile() {
+    wx.getUserProfile({
+      desc: '用于完善个人资料',
+      success: (res) => {
+        console.log('获取用户信息成功', res.userInfo);
+
+        this.setData({
+          'userInfo.avatarUrl': res.userInfo.avatarUrl,
+          'userInfo.nickName': res.userInfo.nickName
+        });
+      },
+      fail: (err) => {
+        console.error('获取用户信息失败', err);
+      }
+    });
   },
 
   /**

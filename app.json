@@ -18,14 +18,10 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/home/home",
-        "text": "首页",
+        "pagePath": "pages/match/match",
+        "text": "匹配球局",
         "iconPath": "./assets/images/icons/home.png",
         "selectedIconPath": "./assets/images/icons/home-fill.png"
-      },
-      {
-        "pagePath": "pages/match/match",
-        "text": "匹配球局"
       },
       {
         "pagePath": "pages/my-profile/my-profile",
